@@ -1,0 +1,952 @@
+*, html, body {
+  margin: 0;
+  padding: 0;
+}
+.container1{
+  width: 100%;
+  height: 100vh;
+  background-color: brown;
+}
+.hidden-content {
+  display: none;
+  transition: transform 2s ease-in-out;
+  position: relative;
+}
+#simplelistexample{
+  display: block;  
+  transition: transform 1s ease-in-out;
+  overflow: hidden;
+  background-color: black;
+  position: absolute;
+  z-index: 999;
+}
+.hidden {
+  transform: translateY(-100%);
+}
+.bg-image{
+  background-size: cover;  
+  background-position: center;
+  height: 100vh;
+  min-height: 100vh;
+  display: flex;
+}
+.gambarframeing{
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.coverundangan{
+  width: 100%;
+  display: block;
+  position: relative;
+  transition: 0.5s;
+}
+/*** halaman utama ***/
+.homecontainer{  
+  width: 100%;
+  height: 100vh;
+}
+.bghome{
+  background-color: #D7BFA7;
+  min-height: 100vh;
+  background-size: cover;  
+  background-position: center;
+}
+
+.animbungahome{
+  width: 500px;
+  display: flex;
+  align-items: center;
+}
+
+.homekonten{  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 50px;
+  position: relative;
+}
+.konten2{
+  color:#5B2818;
+}
+.konten1{
+  padding-top: 200px;
+  color:#5B2818;
+}
+.konten1 h1{
+  font-size: 4rem;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.konten1 p{
+  font-family: "Josefin Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 15px;
+}
+
+.labelundangan{
+  width: 100%;
+}
+
+.labelundangan p{  
+  font-family: "Josefin Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 15px;
+}
+.labelundangan h4{  
+  font-family: "Josefin Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.tombolbuka{  
+  background-color: #5B2818;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.tombolbuka p{  
+  font-family: "Josefin Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color: #fff;
+  font-size: 15px;
+  margin: 0px;
+}
+/*** halaman utama ***/
+.countdown-container {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  align-items: center;
+}
+
+#countdown {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+
+.countdown-item {
+  background-color:#5B2818;
+  border-radius: 10px;
+  padding: 20px;
+  width: 60px;
+  text-align: center;
+}
+
+.countdown-item span {
+  display: block;
+  font-size: 1em;
+  color:aliceblue;
+  font-family: 'Roboto', sans-serif;
+}
+
+.countdown-item p {
+  margin: 0;
+  font-size: 0.7em;
+  color:aliceblue;
+  font-family: 'Roboto', sans-serif;
+}
+/*** container cover ***/
+.containercover{  
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.coverkonten{  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 50px;
+}
+.cover1{
+  padding-top: 50px;
+}
+.cover1 h5{
+  font-family: "Josefin Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 2rem;
+  padding: 10px;
+}
+.imgcover{
+  width: 300px;
+}
+.kontencover{ 
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.judulcover{
+  width: 100%;
+  padding-top: 10px;
+}
+.judulcover p{
+  font-family: "Josefin Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 15px;
+  margin: 0px;
+}
+
+/*** judulweding ***/
+
+.titlejudul{  
+  width: 100%;
+  color: #5B2818;
+}
+.titlejudul h1{  
+  font-size: 2rem;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.titlejudul p{  
+  font-family: "Josefin Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 15px;
+  margin: 0px;
+}
+/*** container 2 ***
+.animbunga3{
+  width: 250px;
+  display: flex;
+  animation-name: example;
+  animation-duration: 4s infinite;
+}
+@keyframes example {
+  0%   {background-color:red; left:200px; top:200px;}
+  100%  {background-color:green; left:0px; top:200px;}
+}
+*** container 2 ***/
+.animbunga2{
+  width: 250px;
+  display: flex;
+}
+.animbunga{
+  width: 200px;
+  display: flex;
+}
+#flower2 {
+  animation: mymove 10s infinite;
+}
+#flower1 {
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  50% {transform: rotate(5deg);}
+}
+.container2{  
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background-color: #fecbd0;
+}
+.caper1{ 
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.kontencaper{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+.isikontencaper{
+  padding: 10px;
+}
+.judulcaper{
+  width: 100%;
+  color: #5B2818;
+}
+.judulcaper h5{
+  font-size: 4rem;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: bold;
+}
+.judulcaper p{
+  font-family: "Josefin Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 15px;
+}
+.socialbox{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
+.socialboxicon{
+  width: 40px;
+  padding: 10px;
+  margin: 5px;
+  background-color:#5B2818;
+  color: aliceblue;
+}
+.socialboxicon i{  
+  font-family: "Josefin Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 15px;
+}
+
+/*** container 3 ***/
+.container3{  
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.containacara{  
+  width: 100%;
+}
+
+
+#bgakad {
+  background-color: #D7BFA7;
+  height: 100%;
+  width: 100%;
+}
+
+.judulwaktuacara{  
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.titlewaktuacara{  
+  width: 100%;
+  color: #5B2818;
+}
+.titlewaktuacara h1{  
+  font-size: 4rem;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.waktuacara{ 
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.kontenwaktuacara{
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.isikontenwaktuacara{
+  padding: 10px;
+  display: flex;
+  position: relative;
+}
+.isikontenakad{
+  padding-top: 100px;
+  width: 100%;
+  color: #fff;
+}
+.isikontenakad h2{
+  font-size: 25px;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.isikontenakad p{  
+  font-family: "Josefin Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 15px;
+}
+
+.isikontenakad a{  
+  font-family: "Josefin Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 15px;
+  color: #fff;  
+  cursor: pointer;
+  transform-origin: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.isikontenakad a:hover{  
+  color: darkorange;
+}
+
+/*** galeri ***/
+.container4{  
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.containgaleri{  
+  width: 100%;
+}
+.judulgaleri{  
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.titlegaleri{  
+  width: 100%;
+  color: #5B2818;
+}
+.titlegaleri h1{  
+  font-size: 4rem;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.titlegaleri p{  
+  font-family: "Josefin Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 15px;
+}
+.galeri{ 
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.kontengaleri{
+  width: 100%;
+  padding: 10px;
+}
+#galeri{  
+  background-image: url('../img/bggggg-01.jpg');
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+/*** katapengantar ***/
+.container5{  
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.containkata{  
+  width: 100%;
+}
+.judulkata{  
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: aliceblue;
+}
+.titlekata{  
+  width: 100%;
+}
+.titlekata p{  
+  font-family: "Josefin Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 15px;
+}
+#water {
+  width: 100%;
+  height: 100%;
+  background-image: url('../img/wave-down.svg');
+  background-size: cover;
+  background-color: #5B2818;
+}
+/*** protokol ***/
+.container6{  
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.containprotokol{  
+  width: 100%;
+}
+.judulprotokol{  
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.titleprotokol{
+  color: #5B2818;
+  width: 100%;
+}
+.titleprotokol h1{  
+  font-size: 4rem;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.titleprotokol p{  
+  font-family: "Josefin Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 15px;
+}
+.galeri{ 
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.icon{
+  width: 100%;
+}
+.item-protocol{
+  padding: 10px;
+}
+.description{
+  width: 100%;
+  color: #5B2818;
+}
+.description h3{
+  font-family: "Josefin Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.description p{
+  font-family: "Josefin Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 15px;
+}
+#bgprotokol {
+  background-image: url('../img/bg2.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+
+#bggift {
+  background-image: url('../img/bg2.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+/*** rsvp ***/
+
+#bgrsvp {
+  background-image: url('../img/asset/bggg-01.png');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+.titlersvp{  
+  width: 100%;
+  color: #5B2818;
+}
+.titlersvp h1{  
+  font-size: 4rem;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.titlersvp p{  
+  font-family: "Josefin Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 15px;
+}
+/*** footer ***/
+.container7{  
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.containfooter{  
+  width: 100%;
+  padding-top: 100px;
+}
+.judulfooter{  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #5B2818;
+}
+.judulfooter p{  
+  font-family: "Josefin Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 15px;
+}
+.footer{ 
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.footerkonten{  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.footer1{
+  padding-bottom: 50px;
+}
+.imgfooter{
+  width: 300px;
+}
+.kontenfooter{ 
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.judulfooter1{
+  width: 100%;
+  padding-top: 10px;
+}
+.judulfooter1 h5{
+  font-size: 4rem;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.judulfooter1 p{
+  font-family: "Josefin Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 15px;
+  margin: 0px;
+}
+
+#bgfooter {
+  background-image: url('../img/bggg-01.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+
+
+/*** menu ***/
+
+.containermenu {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.3) !important;
+  backdrop-filter: blur(4px);
+  padding: 10px;
+}
+.d-flex {
+  display: flex;
+  width: 100%;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.flex-1 {
+  flex-grow: 1;
+}
+
+nav{
+  width: 100%;
+  height: 70px;
+  background-color: #5B2818;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 20px;
+}
+
+nav li {
+  display: inline-flex;
+  width: 25%;
+  margin-right: -4px;
+}
+
+nav a {
+  text-decoration: none;
+  position: relative;
+  margin: 0px 10px;
+  overflow: hidden;
+}
+
+nav a:hover i{
+  transition: all 0.4s;
+  color: #fff;
+}
+
+nav a i {
+  position: absolute;
+  z-index: 3;
+}
+
+nav a i:after {
+  content: "";
+  background-color: #5B2818;
+  position: absolute;
+  transform: rotate(15deg);
+  right: 0;
+  bottom: 0;
+  left: -5px;
+  height: 1px;
+  z-index: 4;
+}
+
+nav a span {
+  color: #fff;
+  font-size: 15px;
+  transform: translateY(20px);
+  position: relative;
+  z-index: 1;
+  margin: 5px;
+}
+
+nav a span:after {
+  content: "";
+  background-color: #fff;
+  width: 5px;
+  height: 5px;
+  position: absolute;
+  border-radius: 50%;
+  display: flex;
+  left: calc(50% - 2.5px);
+  opacity: 0;
+  transform: scale(0);
+}
+
+nav a:after {
+  content: "";
+  background-color: #5B2818;
+  position: absolute;
+  transform: rotate(15deg);
+  right: -2px;
+  bottom: -14px;
+  left: -8px;
+  height: 50px;
+  z-index: 2;
+}
+
+nav a.isActive i {
+  transform: translateY(-40px);
+  transition: all 0.8s;
+}
+
+nav a.isActive i:after {
+  transition: all 0.6s;
+  height: 32px;
+}
+
+nav a.isActive span {
+  transform: translateY(0);
+  transition: all 0.4s ease-in;
+  text-transform: uppercase;
+}
+
+nav a.isActive span:after {
+  transition: all 0.8s ease;
+  transform: scale(1);
+  opacity: 1;
+}
+
+nav a.isActive:after {
+  height: 10px;
+  transition: height 1s;
+}
+
+nav a.notActive i {
+  transform: translateY(0);
+  transition: all 0.8s;
+}
+
+nav a.notActive i:after{
+  transition: all 0.6s;
+  height: 1px;
+}
+
+nav a.notActive span {
+  transform: translateY(20px);
+  transition: all 0.4s ease-in;
+  text-transform: uppercase;
+}
+
+nav a.notActive span:after {
+  transition: all 0.8s ease;
+  transform: scale(0);
+  opacity: 1;
+}
+
+nav a.notActive:after {
+  height: 60px;
+  transition: height 1s;
+}
+
+nav i {
+  color: #fff;
+  font-size: 25px;
+}
+
+
+
+/*** bank ***/
+.item-bank{
+  padding: 10px;
+  box-shadow: 0px 0px 30px grey;  
+  background-color: rgba(255, 255, 255, 0.3) !important;
+  backdrop-filter: blur(4px);
+}
+
+
+
+/*** sound***/
+
+.audio-icon-wrapper {
+  width: 3rem;
+  height: 3rem;
+  font-size: 2rem;
+  position: fixed;
+  bottom: 10rem;
+  right: 1rem;
+  cursor: pointer;
+  color: white;
+  border-radius: 50px;
+  transform-origin: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 0;
+  background-color: #5B2818;
+}
+
+.music-player {
+  position: fixed;
+  width: 3rem;
+  height: 3rem;
+  font-size: 2rem;
+  bottom: 10rem;
+  right: 1rem;
+  cursor: pointer;
+  color: white;
+  border-radius: 50px;
+  transform-origin: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 0;
+  background-color: #5B2818;
+  transition: background-color 0.3s;
+}
+
+.music-player button {  
+  color: white;
+  border: none;
+  background-color: #5B2818;
+}
+
+#copyright{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 50px;
+  position: relative;
+  background-color: #5B2818;
+}
+
+#copyright p{  
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
